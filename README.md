@@ -18,8 +18,8 @@
     - merge_dir.py
 
 
-++++
-####연합학습 구현하기
++ + + +
+#### 연합학습 구현하기
 windows 환경, anaconda에서 가상환경 구성 후 프롬프트에서 실행
 server.py 파일 실행 후 client.py 파일 실행
 
