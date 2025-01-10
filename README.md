@@ -18,13 +18,19 @@
     - merge_dir.py
 
 
-+ + + +
+------------------------------------------------
+
+
 #### 연합학습 구현하기
+
 windows 환경, anaconda에서 가상환경 구성 후 프롬프트에서 실행
 server.py 파일 실행 후 client.py 파일 실행
 
+
 python client.py --training_dir 테스트 데이터 파일 경로 A --test_dir  훈련 데이터 파일 경로 A --port 8080
+
 python client.py --training_dir 테스트 데이터 파일 경로 B --test_dir  훈련 데이터 파일 경로 B --port 8080
+
 .....
 
 
