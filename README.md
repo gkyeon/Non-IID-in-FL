@@ -2,6 +2,11 @@
 
 
 ### 파일 구성
++ federated_learning_partition
+    - server.py
+    - client.py
+    - evaluation.py
+      
 + federated_learning
     - server.py
     - client.py
@@ -26,6 +31,12 @@
 windows 환경, anaconda에서 가상환경 구성 후 프롬프트에서 실행
 server.py 파일 실행 후 client.py 파일 실행
 
+
+    python client.py --partition 0 --port 8080
+    python client.py --partition 1 --port 8080
+    python client.py --partition 2 --port 8080
+    python client.py --partition 3 --port 8080
+    python client.py --partition 4 --port 8080
 
 
 python client.py --training_dir 테스트 데이터 파일 경로 A --test_dir  훈련 데이터 파일 경로 A --port 8080
