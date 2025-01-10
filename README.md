@@ -1,6 +1,10 @@
 ## 연합학습의 Non-IID 문제 개선을 위한 생성모델 적용 방안에 관한 연구
 
 
+### 개발 기간
++ 2024.09 ~ 2024.11
+
+
 ### 파일 구성
 + federated_learning_partition
     - server.py
@@ -39,10 +43,8 @@ server.py 파일 실행 후 client.py 파일 실행
     python client.py --partition 4 --port 8080
 
 
-python client.py --training_dir 테스트 데이터 파일 경로 A --test_dir  훈련 데이터 파일 경로 A --port 8080
-
-python client.py --training_dir 테스트 데이터 파일 경로 B --test_dir  훈련 데이터 파일 경로 B --port 8080
-
-.....
+    python client.py --training_dir 테스트 데이터 파일 경로 A --test_dir  훈련 데이터 파일 경로 A --port 8080
+    python client.py --training_dir 테스트 데이터 파일 경로 B --test_dir  훈련 데이터 파일 경로 B --port 8080
+    .....
 
 
