@@ -3,19 +3,19 @@
 
 #### 파일 구성
 + federated_learning
-    - server
-    - client
-    - evaluation
+    - server.py
+    - client.py
+    - evaluation.py
 
 + vae
-    - vae_generation
+    - vae_generation.py
 
 + non-iid
-    -  non-iid-ratio
+    -  non-iid-ratio.py
 
 + dir_set
-    - distribute_data
-    - merge_dir
+    - distribute_data.py
+    - merge_dir.py
 
 
 
