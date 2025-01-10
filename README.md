@@ -10,10 +10,10 @@
 + vae
     - vae_generation
 
-+non-iid
++ non-iid
     -  non-iid-ratio
 
-+dir_set
++ dir_set
     - distribute_data
     - merge_dir
 
